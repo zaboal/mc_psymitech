@@ -10,7 +10,7 @@ jobs:
       packages: write
     steps:
       - name: Install packwiz
-        run: curl -L -o packwiz.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip && unzip -d /tmp/ packwiz.zip && mkdir -p $HOME/.local/bin/packwiz && mv /tmp/packwiz $HOME/.local/bin/packwiz && rm packwiz.zip && file /tmp/packwiz
+        run: curl -L -o packwiz.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip && unzip packwiz.zip && mkdir -p $HOME/.local/bin/packwiz && mv packwiz $HOME/.local/bin/packwiz && rm packwiz.zip 
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Export modpack
