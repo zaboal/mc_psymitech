@@ -1,0 +1,21 @@
+name: Export modpack as artifact
+
+on: push
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Install Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '^1.22.0'
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Export modpack
+        run: bash -c '$HOME/go/bin/packwiz modrinth export'
