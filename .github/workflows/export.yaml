@@ -14,9 +14,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Export modpack
-        run: bash -c '$HOME/.local/bin/packwiz modrinth export'
+        run: bash -c '$HOME/.local/bin/packwiz modrinth export --output "mc.zba.su pack.mcpack"'
       - name: Upload mcpack
         uses: actions/upload-artifact@v4
         with:
           name: mcpack
-          path: '*.mcpack'
+          path: 'mc.zba.su pack.mcpack'
