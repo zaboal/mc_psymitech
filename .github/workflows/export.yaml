@@ -1,6 +1,12 @@
 name: Export modpack as artifact
 
-on: push
+on: 
+  push:
+    paths:
+      - mods/*
+      - config/*
+      - index.toml
+      - pack.toml
 
 jobs:
   export:
