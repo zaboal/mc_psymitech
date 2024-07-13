@@ -18,5 +18,5 @@ jobs:
       - name: Upload mcpack
         uses: actions/upload-artifact@v4
         with:
-          name: mcpack
+          name: mrpack
           path: 'mc.zba.su pack.mrpack'
