@@ -1,0 +1,13 @@
+name = "Psychedelicraft"
+filename = "psychedelicraft-1.7.5+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8u2zZjRq/versions/hB3KFX6y/psychedelicraft-1.7.5%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "8eca4cd7c171d9e8a59bf10b34e0ebb2ae1e2285"
+
+[update]
+[update.modrinth]
+mod-id = "8u2zZjRq"
+version = "hB3KFX6y"

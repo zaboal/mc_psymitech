@@ -1,0 +1,13 @@
+name = "mc.zba.su pack"
+author = "zaboal, merededdo"
+version = "0.5.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "53d6b3957564ae6734001fc238b5550db78e1a58a4994d94104118ff66e5b9cb"
+
+[versions]
+fabric = "0.15.11"
+minecraft = "1.20.1"

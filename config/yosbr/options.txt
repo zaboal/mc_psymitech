@@ -1,0 +1,6 @@
+version:3465
+darkMojangStudiosBackground:true
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.azurelib.reload:key.keyboard.unknown
+key_key.anim_guns.aimtoggle:key.keyboard.unknown
+key_key.mute_microphone:key.keyboard.unknown
