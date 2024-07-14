@@ -3,10 +3,7 @@ name: Export modpack as artifact
 on: 
   push:
     paths:
-      - mods/*
-      - config/*
-      - index.toml
-      - pack.toml
+      - packwiz
 
 jobs:
   export:
@@ -20,7 +17,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Export modpack
-        run: bash -c '$HOME/.local/bin/packwiz modrinth export --output "mc.zba.su pack.mrpack"'
+        run: |
+          cd packwiz
+          bash -c '$HOME/.local/bin/packwiz modrinth export --output "mc.zba.su pack.mrpack"'
       - name: Upload mcpack
         uses: actions/upload-artifact@v4
         with:
