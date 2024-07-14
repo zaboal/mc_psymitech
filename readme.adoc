@@ -11,8 +11,8 @@
 // ---- end of initial attributes entries ----
 
 
-this modpack contains drugs, 
-guns—which are inspired by garry's mode darkrp—
+this modpack contains drugs and 
+guns—that is inspired by garry's mode darkrp—
 technologies for routine automation and 
 new structures to revive world exploration.
 
