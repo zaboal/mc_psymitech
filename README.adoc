@@ -22,8 +22,8 @@ also, you'll have to {d}6NUGKfCSS6[image:{s}discord/1065230041023258676{ds}&labe
 
 this core modpack contains drugs and guns
 —that is inspired by garry's mode darkrp—
-technologies for routine automation and 
-new structures to revive world exploration.
+technologies for routine automation 
+and new structures to revive world exploration.
 
 *wikis*: 
     {h}github.com/sollace/psychedelicraft/wiki[psychedelicrat],

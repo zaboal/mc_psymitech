@@ -9,4 +9,7 @@
 
 '''
 
-*the only one, that has https://github.com/zaboal/mc.zba.su/graphs/contributors[contributed] more than others, keeps the last word over contents of this file and over the whole project's structure, unless otherwise stated in https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners[`codeowners`].*
+*the only one, 
+that has https://github.com/zaboal/mc.zba.su/graphs/contributors[contributed] more than others, 
+keeps the last word over contents of this file and over the whole project's structure, 
+unless otherwise stated in https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners[`codeowners`].*
