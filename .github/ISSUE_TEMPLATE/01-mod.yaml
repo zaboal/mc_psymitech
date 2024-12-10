@@ -1,0 +1,11 @@
+name: Mod Proposal
+title: "Add: "
+labels: ["mods"]
+body:
+- type: input
+  attributes:
+    label: Link to Modrinth
+    placeholder: https://modrinth.com/mod/psychedelicraft
+    value: https://modrinth.com/mod/
+  validations:
+    required: true
