@@ -1,4 +1,5 @@
 name: Mod Proposal
+description: "Suggest the modification you'd like to see on the server"
 title: "Add: "
 labels: ["mods"]
 body:
