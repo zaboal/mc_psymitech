@@ -16,12 +16,12 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "7f4ca1768cad568605578ae9954acf90c71027d6c2b9f467cc49c7b79e92d0f6"
+hash = "c7197bae2df4f4a95fdcd0016cab76518350a9c87c25e55b3856c85bb5bedc62"
 metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "b79cc58d8f59edf82a64eac716b84f11911b2bc63c40529575dbaf67f4896efb"
+hash = "e4295eaf6d67a0203c6410e4687b3e4340d84202e1cf751b231f283b5f801751"
 metafile = true
 
 [[files]]
@@ -31,12 +31,12 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "a89dfcc985612a275975d4823a24fc3dceb244bacb2e8f81bd459283bf1b9fe9"
+hash = "b2d6595b73bd66167a4d7ace472c54c0eab45f55e1769f4ff7da72ce8b58872a"
 metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "26394151533372bce2229f31c8df7f65e2deb751cc823f317cd30682381acc8f"
+hash = "21da22765bdcc9f9cd205fe082336e7ca8af3a9668ce857617ed7e3e8aefe2a2"
 metafile = true
 
 [[files]]
@@ -46,12 +46,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "14e87ff6253d2bd02697e46b4a9b5060465d72b71663def5236f829e30bac6d6"
+hash = "4daf4333e077af7302ee17b14c7d45c245b89be171e2f5f9659033a458371cbb"
 metafile = true
 
 [[files]]
 file = "mods/fabric-simple-animated-guns.pw.toml"
-hash = "b7dd0d855dbf08d4fdd1f73a20ba0eb2ab7d4c9cf4939055fe9ea2587c7b4aad"
+hash = "86f84d67d3576bbf99d8b96c7a1e09aedc63b77a0ef1d2e744711a3a70c995b7"
 metafile = true
 
 [[files]]
@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/hit-feedback.pw.toml"
-hash = "56e7f2eb859e71d73902f3fccdf5f19e119878759dc82af8057a9e5946ef6f86"
+hash = "f1dc50e7acc924d174aea6bc1e42d707114c441bbb392591f2fbba21e57a55ae"
 metafile = true
 
 [[files]]
@@ -76,7 +76,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "074ddc3663b2f791afa62997e0093aae7c2359edfd94ef99e61120da4fe54b7e"
+hash = "ff6712a4e4b83fae3f7dc2fdef0c51a3ac2c5a7af9d78c932613dd2f9d07763c"
 metafile = true
 
 [[files]]
@@ -91,5 +91,5 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "1802c094c28600a6f3fb498cbcfeeca6f3b6b7ade5e5a9e997d2ae9362545ece"
+hash = "63839e2846c860c6a545c1756220f9cc751d513eec32dc764628a32c5739d95f"
 metafile = true

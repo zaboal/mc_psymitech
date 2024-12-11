@@ -1,13 +1,13 @@
 name = "Simple Animated Guns (Fabric)"
-filename = "SimpleAnimatedGuns-1.20.1-v1.3-BETA-2.jar"
+filename = "SimpleAnimatedGuns-1.20.1-v1.3-BETA-3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5817cc445bd102cc909d2e2541f7a7a349342998"
+hash = "bb75e9de71881fe967c4add1b4c03f28a9643ac6"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4746617
+file-id = 5547258
 project-id = 664917
