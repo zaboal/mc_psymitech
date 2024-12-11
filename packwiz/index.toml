@@ -1,6 +1,26 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/yosbr/config/modmenu.json"
+hash = "64d6eba95a81f9686419ac43a031c2ecbc521b036d59a001b18feaa52ae48a67"
+
+[[files]]
+file = "config/yosbr/config/xaerominimap-common.txt"
+hash = "12d59cbd75c19a2bfb7f837f161f762e6136e834b07d3c3c5bba806a66e34bc2"
+
+[[files]]
+file = "config/yosbr/config/xaerominimap.txt"
+hash = "4a5ed37e9450c4624003a7596fd036f77cce7c6ef078359f9369d2c666539c02"
+
+[[files]]
+file = "config/yosbr/config/xaeroworldmap-common.txt"
+hash = "d1f01c1b88e9f0273da1a90cd0c5d0ff62c2313b7ef4c901993aa8cafa84e5d6"
+
+[[files]]
+file = "config/yosbr/config/xaeroworldmap.txt"
+hash = "6cae8c6c64eeebf4dd15076b8f172a440bf1ece460aef63d3abe206e2d45fe8f"
+
+[[files]]
 file = "config/yosbr/options.txt"
 hash = "95076944a78cb2ef6c67c91b3fd912139ecfd87085ef9be1acce326a64e4a30f"
 
@@ -17,6 +37,11 @@ metafile = true
 [[files]]
 file = "mods/azurelib.pw.toml"
 hash = "c7197bae2df4f4a95fdcd0016cab76518350a9c87c25e55b3856c85bb5bedc62"
+metafile = true
+
+[[files]]
+file = "mods/bobby.pw.toml"
+hash = "628ca822826f31018f97293b673e09defe9bc46616a7636bbd4a3b51ee4c9949"
 metafile = true
 
 [[files]]
@@ -37,6 +62,21 @@ metafile = true
 [[files]]
 file = "mods/create-fabric.pw.toml"
 hash = "21da22765bdcc9f9cd205fe082336e7ca8af3a9668ce857617ed7e3e8aefe2a2"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "d66ea8c1b07884fd9de62cfbd344a74760388b9d19b0d82c32557e3edb4daad9"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "b00063ae4ce84453b6cb813c7aa3fee8083a1dd8d5110325409ea10e75e6c89f"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "9f499eff7ddb9eeab719f19808cbcf41f2b77d06ebf946f157cf7b5f52f64e70"
 metafile = true
 
 [[files]]
@@ -65,8 +105,33 @@ hash = "f1dc50e7acc924d174aea6bc1e42d707114c441bbb392591f2fbba21e57a55ae"
 metafile = true
 
 [[files]]
+file = "mods/indium.pw.toml"
+hash = "31278d67704a56eb32d93c240e4bfd9822e1ab6047ee14d752953dd0c24dca95"
+metafile = true
+
+[[files]]
+file = "mods/invmove.pw.toml"
+hash = "881ad6ef91c24ce547c8062685cf361b1937b4162c8a238196c8106ef62ab15d"
+metafile = true
+
+[[files]]
+file = "mods/invmovecompats.pw.toml"
+hash = "71b75597d5404b45c4d4862a0a981b798d2f9ba75f1837b9f8b98003af00b72c"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "a626674fc1092afe5ccc6cbf4856c09119e42395494f1c3862eed2ab17da0221"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "c239c951796882b9c93e649a0dba4f2d95804441faaed707b686381b7a5c67da"
+metafile = true
+
+[[files]]
+file = "mods/mcexp.pw.toml"
+hash = "875cbfd7e7aabd266437fd582f0955def0fb33d9f7cf7cfd6f4b5f8308d7f876"
 metafile = true
 
 [[files]]
@@ -80,6 +145,11 @@ hash = "ff6712a4e4b83fae3f7dc2fdef0c51a3ac2c5a7af9d78c932613dd2f9d07763c"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "4cd171d3f5f3e1d2948cb1b0062e742a5e85110c9e9a668f9aed5b0cebcb9c97"
+metafile = true
+
+[[files]]
 file = "mods/nyfs-spiders.pw.toml"
 hash = "331450a351fe3099c8bb4522c63d5a2ab063aad3ec29328d9cb7ec40a0a74f44"
 metafile = true
@@ -90,6 +160,41 @@ hash = "b7e29f4665a46ed66b64a2e363d4dd7c0f21861c6d7df643f99057181f71bd92"
 metafile = true
 
 [[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
+hash = "5003f2c451c9459b7911ac786897eead4d74a8ebdad4741476949791b26c3caa"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "63839e2846c860c6a545c1756220f9cc751d513eec32dc764628a32c5739d95f"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "245530bdbb5c4127a1286f3722778d71e478194a8dcee89388c8fd247b4a57da"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "74a5d6dc2fa3494650bf951f2212c70eeb6b8d1af209b5dab4b7a8582302865c"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "a66f114b66d41c0de64f6d7cb00d253b858ecb8dfef497aed5feac1a690111a2"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "5fa3a100f874ad3d03b674e867105fc7cc7dcf98b5c1c50d7841a25a0dda4607"
+metafile = true
+
+[[files]]
+file = "mods/yosbr.pw.toml"
+hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "6e3c46cc7523df95fefba675b177ff0abfda3b72c893add5ce64390ad137ab8f"
 metafile = true
