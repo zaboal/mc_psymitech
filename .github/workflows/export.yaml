@@ -14,14 +14,29 @@ jobs:
     steps:
       - name: Install packwiz
         run: curl -L -o /tmp/packwiz.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip && mkdir -p $HOME/.local/bin/ && unzip -d $HOME/.local/bin/ /tmp/packwiz.zip && chmod +x $HOME/.local/bin/packwiz && rm /tmp/packwiz.zip
-      - name: Checkout repository
+      - name: Checkout core branch
         uses: actions/checkout@v4
-      - name: Export modpack
+        with:
+          ref: 'core'
+      - name: Export modpack (core)
         run: |
           cd packwiz
-          bash -c '$HOME/.local/bin/packwiz modrinth export --output "mc.zba.su pack.mrpack"'
-      - name: Upload mcpack
+          bash -c '$HOME/.local/bin/packwiz modrinth export --output "mc.zba.su pack (core).mrpack"'
+      - name: Checkout client branch
+        uses: actions/checkout@v4
+        with:
+          ref: 'side/client'
+      - name: Export modpack (client)
+        run: |
+          cd packwiz
+          bash -c '$HOME/.local/bin/packwiz modrinth export --output "mc.zba.su pack (client).mrpack"'
+      - name: Upload core mrpack
         uses: actions/upload-artifact@v4
         with:
-          name: mrpack
-          path: 'mc.zba.su pack.mrpack'
+          name: mrpack (core)
+          path: 'mc.zba.su pack (core).mrpack'
+      - name: Upload client mrpack
+        uses: actions/upload-artifact@v4
+        with:
+          name: mrpack (client)
+          path: 'mc.zba.su pack (client).mrpack'
