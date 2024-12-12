@@ -21,7 +21,7 @@ jobs:
       - name: Export modpack (core)
         run: |
           cd packwiz
-          bash -c '$HOME/.local/bin/packwiz modrinth export --output "mc.zba.su pack (core).mrpack"'
+          bash -c '$HOME/.local/bin/packwiz modrinth export --output "mczbasu-core.mrpack"'
       - name: Checkout client branch
         uses: actions/checkout@v4
         with:
@@ -29,14 +29,14 @@ jobs:
       - name: Export modpack (client)
         run: |
           cd packwiz
-          bash -c '$HOME/.local/bin/packwiz modrinth export --output "mc.zba.su pack (client).mrpack"'
+          bash -c '$HOME/.local/bin/packwiz modrinth export --output "mczbasu-client.mrpack"'
       - name: Upload core mrpack
         uses: actions/upload-artifact@v4
         with:
           name: mrpack (core)
-          path: 'mc.zba.su pack (core).mrpack'
+          path: 'mczbasu-core.mrpack'
       - name: Upload client mrpack
         uses: actions/upload-artifact@v4
         with:
           name: mrpack (client)
-          path: 'mc.zba.su pack (client).mrpack'
+          path: 'mczbasu-client.mrpack'
