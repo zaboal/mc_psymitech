@@ -1,0 +1,18 @@
+<h1> Torčecraft </h1> 
+
+<img src="assets/logo.png" alt="Banner" align="right" width="128" height="128" />
+
+<a href="https://modrinth.com/modpack/mc.zba.su/versions"><img src="https://img.shields.io/badge/.mrpack-gray?style=flat-square" /></a>
+<a href="https://fabulously-optimized.github.io/mrpack-to-zip/?project=kqFCikd7"><img src="https://img.shields.io/badge/.mrpack-gray?style=flat-square" /></a>
+<a href="https://modrinth.org/modpack/kqFCikd7"><img src="https://img.shields.io/modrinth/dt/kqFCikd7?logo=modrinth&style=flat-square&label=open+in+modrinth" /></a>
+<a href="https://github.com/RichardLitt/standard-readme"><img src="https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square" /></a>
+
+this core modpack contains drugs and guns
+—that is inspired by garry's mode darkrp—
+technologies for routine automation 
+and new structures to revive world exploration.
+
+<b>wikis</b>: 
+<a href="https://github.com/sollace/psychedelicraft/wiki">psychedelicrat</a>,
+<a href="https://tweaked.cc">cc:tweaked</a>,
+<a href="https://modrinth.com/mod/create-fabric">create</a>.
