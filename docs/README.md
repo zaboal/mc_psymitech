@@ -18,4 +18,5 @@ and new structures to revive world exploration.
 <a href="//tweaked.cc">computers</a>,
 <a href="//modrinth.com/mod/create-fabric">automation</a>.
 
-<h2> <a href="//support.modrinth.com/en/articles/8802250-modpacks-on-modrinth">Install</a> </h2>
+<!-- I hope it's obvious how to install it with mrpack or zip, which are linked in the badges -->
+<!-- <h2> <a href="//support.modrinth.com/en/articles/8802250-modpacks-on-modrinth">Install</a> </h2> -->
