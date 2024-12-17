@@ -9,7 +9,7 @@
 <a href="//github.com/RichardLitt/standard-readme"><img src="https://img.shields.io/badge/readme%20style-standard-4493F8?style=flat-square&color=white&labelColor=4493F8&logo=readme&logoColor=white" /></a>
 
 A Minecraft modpack containing drugs and guns
-— that is inspired by <a href="//github.com/FPtje/DarkRP">Garry's Mode DarkRP</a> —
+— that is inspired by <a href="//github.com/FPtje/DarkRP">DarkRP</a> —
 technologies for routine automation 
 and new structures to revive world exploration.
 
