@@ -1,0 +1,31 @@
+// commonly used url parts
+:h: https://
+:discord-invite: {h}discord.gg/
+:shield: {h}img.shields.io/
+:ds: ?logo=discord&style=flat-square
+
+// aliases
+:d: {discord-invite}
+:s: {shield}
+
+// ---- end of initial attributes entries ----
+
+
+## Torčecraft 
+
+image:assets/logo.png[Banner,192,192,float="right"]
+
+{h}modrinth.com/modpack/mc.zba.su/versions[image:{s}badge/.mrpack-gray?style=flat-square[.mrpack]] 
+{h}fabulously-optimized.github.io/mrpack-to-zip/?project=kqFCikd7[image:{s}badge/.zip-gray?style=flat-square[.zip]] 
+{h}modrinth.org/modpack/kqFCikd7[image:{s}modrinth/dt/kqFCikd7?logo=modrinth&style=flat-square&label=open+in+modrinth[Modrinth]]
+{h}github.com/RichardLitt/standard-readme[image:{s}badge/readme%20style-standard-brightgreen.svg?style=flat-square[standard-readme compliant]]
+
+this core modpack contains drugs and guns
+—that is inspired by garry's mode darkrp—
+technologies for routine automation 
+and new structures to revive world exploration.
+
+*wikis*: 
+    {h}github.com/sollace/psychedelicraft/wiki[psychedelicrat],
+    {h}tweaked.cc[cc:tweaked],
+    {h}modrinth.com/mod/create-fabric[create].
