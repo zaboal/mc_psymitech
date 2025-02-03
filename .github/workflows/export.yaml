@@ -24,4 +24,4 @@ jobs:
           bash -c '$HOME/.local/bin/packwiz modrinth export --output "mczbasu-core.mrpack"'
       - name: Send mrpack file to Modrinth
         run: |
-         curl -X POST -H 'Content-Type: application/json' -H 'Authorization: ${{ secret.MODRINTH_TOKEN }}' -d '{ "version_type": "alpha", "name": "c81937d695b2c06fb2a9550c62f5f6186fd745c3", "project_id": "kqFCikd7", "primary_file": "mczbasu-core.mrpack" }' https://api.modrinth.com/v2/version
+          curl -X POST -H 'Content-Type: application/json' -H 'Authorization: ${{ secret.MODRINTH_TOKEN }}' -d '{ "version_type": "alpha", "name": "c81937d695b2c06fb2a9550c62f5f6186fd745c3", "project_id": "kqFCikd7", "primary_file": "mczbasu-core.mrpack" }' https://api.modrinth.com/v2/version
